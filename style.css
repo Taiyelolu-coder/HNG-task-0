@@ -29,7 +29,7 @@ body{
 }
 
 .image{
-    width: 40%;
+    width: 100%;
     margin-top: 0;
     margin-left: 40px;
 
@@ -57,7 +57,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 60%;
+    width: 100%;
     padding: 100px;
     height: 600px;
     text-align: start;
@@ -90,7 +90,7 @@ body{
 }
 
 .utc-time{
-    font-size: 2.5em;
+    font-size: 3.5em;
     color: beige;
 }
 
@@ -102,7 +102,7 @@ body{
 
 .name a:hover{
     text-decoration: underline;
-    color: rgb(121, 36, 36);
+    color: rgb(180, 59, 59);
 }
 
 .social-links{

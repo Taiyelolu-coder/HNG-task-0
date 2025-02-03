@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="Taiwo4.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+        </div>  
+        <div class="sub-container">    
+            <div class="name">
+                <h2 data-testid="fullName">Taiwo Dorcas Alayande</h2>
+                <h3 data-testid="jobTitle">Frontend Developer</h3>
+                <p data-testid="shortBio">Passionate about building innovative and user centered tech solutions that bridge the gap between individuals and quality healthcare services.</p>
+                <p id="location" data-testid="currentLocation">Lagos, Nigeria.</p>
+                <a href="Mailto:alayandeebudola@gmail.com" data-testid="emailAdrress">Contact me via email</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/taiwo-alayande08" data-testid="linkedin" class="social-link"><img src="./linkedin-in.png" alt="linkedin"></a>
+                <a href="https://github.com/Taiyelolu-coder/" data-testid="gitHub" class="social-link"><img src="./github.png" alt="githui\b"></a>
+                <a href="https://x.com/Taiyelolu08?t=r4j2Pv7-lSAhhPKpO6JLUQ&s=08" data-testid="twitter" class="social-link"><img src="./Twitter-Logо.png" alt="twitter"></a>
+                <a href="https://www.instagram.com/alayandetaiwodorcas?igsh=enNjYXpudWUzaWZj" data-testid="instagram" class="social-link"><img src="./instagram.png" alt="instagram"></a>
+            </div>
+            <div class="utc-time">
+                <p data-testid="utcTime"><strong>UTC Time: </strong> <span id="utcTime"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
